@@ -5,9 +5,9 @@ permalink: /
 subtitle: Scientific R&D Project Leader @ <a href='https://voxarlabs.cin.ufpe.br'>Voxar Labs</a>.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info:
 
 news: true # includes a list of news items
