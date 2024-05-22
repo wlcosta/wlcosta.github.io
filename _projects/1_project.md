@@ -2,7 +2,7 @@
 layout: page
 title: VoxarWild Perception
 description: Industry R&D project in partnership with Volkswagen Trucks and Bus and Eyeflow.ai
-img: assets/img/12.jpg
+img: assets/img/looking.png
 importance: 1
 category: Industry
 related_publications: true
@@ -14,7 +14,7 @@ This one-year project, which was active from 2023 to 2024, led to the developmen
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vwise.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/looking.png" title="looking" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/vwise.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -24,5 +24,5 @@ This one-year project, which was active from 2023 to 2024, led to the developmen
     </div>
 </div>
 <div class="caption">
-    Some publicly available results from this project.
+    Some publicly available results from this project. From left to right, we have <a href="https://github.com/vita-epfl/looking/tree/main">Looking</a>, which we briefly tested as proof-of-concept but did not follow through due to licensing questions.
 </div>
