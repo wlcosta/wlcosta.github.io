@@ -26,3 +26,8 @@ This one-year project, which was active from 2023 to 2024, led to the developmen
 <div class="caption">
     Some publicly available results from this project. From left to right, we have <a href="https://github.com/vita-epfl/looking/tree/main">Looking</a>, which we briefly tested as proof-of-concept but did not follow through due to licensing questions.
 </div>
+
+## related publications
+<div class="publications">
+  {% bibliography -f papers -q @*[key=costa2023survey]* %}
+</div>
