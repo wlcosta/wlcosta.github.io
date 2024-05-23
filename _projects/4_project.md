@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: Evaluating structural distortion in anonymized faces
+description: Research project focused on improving the structure of anonymized faces
+img: assets/img/tg_isabela.jpg
+importance: 4
 category: Academia
 ---
+
+With the rapid growth of computer vision applications, such as emotion recognition, mobile device authentication, and surveillance cameras, technology renders a ubiquitous force in daily life. For that reason, anonymization algorithms are the primary resource for preserving the user's privacy. These techniques can involve naive approaches, such as blurring and masking the person's face, as well as refined methods, such as using Generative Adversarial Networks (GANs).  The relevance of these algorithms comes from the quality of the generated anonymization: it's not useful if the technique removes important structural details of the face in such a way that it cannot be recognized as a person's face anymore. In this way, an image anonymized by an algorithm must change the person's identity while still maintaining enough features to be recognized as a face in computer vision tasks.
+
+This project is focused on investigating the quality of different anonymization techniques and to generate tangible outputs that can guide models into maintaining an intact structure over these new faces.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
