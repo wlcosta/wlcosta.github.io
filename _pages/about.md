@@ -5,7 +5,7 @@ permalink: /
 subtitle: Scientific R&D Project Leader @ <a href='https://voxarlabs.cin.ufpe.br'>Voxar Labs</a>.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info:
@@ -15,6 +15,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there, my name is Willams (or Will, for short), an R&D Scientific Project Manager working with human behavior recognition on [Voxar Labs](https://voxarlabs.cin.ufpe.br), a research lab located within [Centro de Informática](https://cin.ufpe.br) in Recife, Pernambuco, Brazil. I'm particularly interested in applying human behavior recognition techniques and approaches to solve real-world problems for automotive applications and healthcare. I received my PhD from the Federal University of Pernambuco, 🇧🇷. I'm also an active member in the [LatinX in AI](https://www.latinxinai.org) community, which has the mission of bridging communities, academics and industries to further AI innovation and development, empowering LatinX researchers globally.
+Hi, I'm Willams (or Will), an R&D Scientific Project Manager specializing in human behavior recognition at [Voxar Labs](https://voxarlabs.cin.ufpe.br), part of the [Centro de Informática](https://cin.ufpe.br) in Recife, Brazil. My work centers on using behavioral analytics, particularly human behavior recognition, to address real-world challenges across industries like automotive, healthcare, and business. Currently, my research focuses on fairness and responsible AI in the context of self-driving vehicles.
 
-I'm also an active member of other AI communities such as Google Research@São Paulo, and reviewer for national and international conferences such as ISMAR, SIBGRAPI, and IEEE Intercon, as well for well-established journals.
+I hold a PhD from the Federal University of Pernambuco 🇧🇷 and am an active member of the [LatinX in AI](https://www.latinxinai.org) community, which aims to bridge academia, industry, and underrepresented communities to advance AI innovation. I'm also involved in other AI communities, including Google Research@São Paulo, and regularly contribute as a reviewer for prestigious conferences such as ISMAR, SIBGRAPI, and IEEE Intercon, as well as for renowned journals.
