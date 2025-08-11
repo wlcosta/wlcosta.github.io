@@ -12,9 +12,18 @@ fetch('projetos.json')
     carregarMapa();
   });
 
+// Função para definir cor do estado conforme quantidade de projetos
+function getColor(qtd) {
+  return qtd > 5 ? '#084081' :
+         qtd > 3 ? '#0868ac' :
+         qtd > 1 ? '#2b8cbe' :
+         qtd > 0 ? '#4eb3d3' :
+                   '#f0f0f0';
+}
+
 let geojsonLayer;
 function carregarMapa() {
-  fetch('brasil_estados.geojson')
+  fetch('brazil-states.geojson') // ajuste se o nome do seu arquivo for diferente
     .then(res => res.json())
     .then(estadosData => {
       if (geojsonLayer) {
@@ -22,11 +31,20 @@ function carregarMapa() {
       }
 
       geojsonLayer = L.geoJson(estadosData, {
-        style: {
-          color: '#555',
-          weight: 1,
-          fillColor: '#ccc',
-          fillOpacity: 0.6
+        style: function(feature) {
+          let estado = feature.properties.name;
+          let categoria = document.getElementById('categoria').value;
+          let qtd = projetosData.filter(p =>
+            p.estado === estado &&
+            (categoria === 'todos' || p.categoria === categoria)
+          ).length;
+
+          return {
+            color: '#555',
+            weight: 1,
+            fillColor: getColor(qtd),
+            fillOpacity: 0.7
+          };
         },
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {

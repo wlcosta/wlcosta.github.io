@@ -10,7 +10,14 @@
     "estado": "Pernambuco",
     "categoria": "manutencao",
     "ict": "UFPE",
-    "titulo": "ROAD++: Serviços inteligentes de manutenção preditiva",
+    "titulo": "SmartTruck.AI: Diagnóstico Inteligente e Manutenção Preditiva Sustentável de Veículos com IA e Dados Multimodais",
+    "coordenador": "Cristiano Coelho de Araújo"
+  },
+  {
+    "estado": "Pernambuco",
+    "categoria": "manutencao",
+    "ict": "UFPE",
+    "titulo": "ROAD++: Serviços inteligentes de manutenção preditiva através de mapeamento avançado de tipos de via",
     "coordenador": "Veronica Teichrieb"
   },
   {
@@ -19,5 +26,194 @@
     "ict": "UFSC",
     "titulo": "AutoSF: Gestão Inteligente e Responsável de Frotas",
     "coordenador": "Thaís Bardini Idalino"
+  },
+  {
+    "estado": "Paraná",
+    "categoria": "logistica",
+    "ict": "UTFPR",
+    "titulo": "IntelliRoute: Roteirização Inteligente para Cadeias Logísticas Conectadas",
+    "coordenador": "Thiago França Naves"
+  },
+  {
+    "estado": "Rio Grande do Sul",
+    "categoria": "logistica",
+    "ict": "ISI-EQ",
+    "titulo": "Desenvolvimento de Sistema Integrado embarcado para Monitoramento de Carbono na Cadeia Logística Veicular",
+    "coordenador": "Marcelo Eising"
+  },
+  {
+    "estado": "Rio Grande do Sul",
+    "categoria": "logistica",
+    "ict": "UFSM",
+    "titulo": "CIMAV: Controle Inteligente e Multissensorial do Ambiente Interno em Veículos",
+    "coordenador": "Eduardo Escobar Bürger"
+  },
+  {
+    "estado": "Santa Catarina",
+    "categoria": "assistencia_conducao",
+    "ict": "UFSC",
+    "titulo": "Plataforma Embarcada Inteligente de Monitoramento do Comportamento e Detecção de Eventos Potenciais de Direção Anômala com Visão Computacional e Sensores Inerciais",
+    "coordenador": "Gierri Waltrich"
+  },
+  {
+    "estado": "São Paulo",
+    "categoria": "assistencia_conducao",
+    "ict": "LSI-TEC",
+    "titulo": "Visão automotiva para vigilância e condução segura",
+    "coordenador": "Laisa Costa De Biase"
+  },
+  {
+    "estado": "Minas Gerais",
+    "categoria": "conectividade",
+    "ict": "UFMG",
+    "titulo": "Inteligência Artificial Generativa para Orquestração Veicular",
+    "coordenador": "Rodrygo Luis Teodoro Santos"
+  },
+  {
+    "estado": "São Paulo",
+    "categoria": "conectividade",
+    "ict": "UFABC",
+    "titulo": "Sistema Inteligente de Gerenciamento de Bateria para Otimização Energética de Veículos Elétricos com Apoio de Dados Ambientais e de Tráfego",
+    "coordenador": "Alain Segundo Potts"
+  },
+  {
+    "estado": "São Paulo",
+    "categoria": "conectividade",
+    "ict": "Unicamp",
+    "titulo": "Sistemas Inteligentes Conscientes da Comunicação para Veículos Conectados e Cooperativos",
+    "coordenador": "Leandro Aparecido Villas"
+  },
+  {
+    "estado": "São Paulo",
+    "categoria": "conectividade",
+    "ict": "USP",
+    "titulo": "Conectividade Veicular V2V/V2C Aplicada à Automação Cooperativa e Sustentável na Colheita Mecanizada da Cana-de-Açúcar",
+    "coordenador": "Leopoldo Rideki Yoshioka"
+  },
+  {
+    "estado": "Minas Gerais",
+    "categoria": "conectividade",
+    "ict": "UFLA",
+    "titulo": "Posicionamento de precisão e baixo custo para veículos conectados: PPP-RTK com integração INS/GNSS multi-frequência e multi-constelação",
+    "coordenador": "Felipe Oliveira e Silva"
+  },
+  {
+    "estado": "Pernambuco",
+    "categoria": "seguranca_dados",
+    "ict": "UFPE",
+    "titulo": "RESCUE - Resiliência e Segurança Cibernética em Ecossistemas Veiculares",
+    "coordenador": "Cristiano Coelho de Araújo"
+  },
+  {
+    "estado": "Rio de Janeiro",
+    "categoria": "seguranca_dados",
+    "ict": "INMETRO",
+    "titulo": "Projeto MobiCiber: Desenvolvimento de um dispositivo para detecção e proteção contra intrusão em redes, sistemas e aplicações veiculares",
+    "coordenador": "Raphael Carlos Santos Machado"
+  },
+  {
+    "estado": "São Paulo",
+    "categoria": "manutencao",
+    "ict": "UFABC",
+    "titulo": "Sistemas de manutenção preditiva para powertrain de veículos agrícolas eletrificados e gêmeo digital",
+    "coordenador": "Alfeu Joãozinho Sguarezi Filho"
+  },
+  {
+    "estado": "São Paulo",
+    "categoria": "manutencao",
+    "ict": "Unicamp",
+    "titulo": "Desenvolvimento de Sistemas de Sensoriamento Energeticamente Autônomos para Aplicações Veiculares",
+    "coordenador": "Auteliano Antunes dos Santos Junior"
+  },
+  {
+    "estado": "Santa Catarina",
+    "categoria": "manutencao",
+    "ict": "UFSC",
+    "titulo": "Gerenciamento de sistema carregamento de veículos elétricos em paralelo com carregadores conectados",
+    "coordenador": "Tamires Grossl Bade"
+  },
+  {
+    "estado": "Minas Gerais",
+    "categoria": "manutencao",
+    "ict": "UFMG",
+    "titulo": "Análise Preditiva de Recalls de Veículos",
+    "coordenador": "Antonio Alfredo Ferreira Loureiro"
+  },
+  {
+    "estado": "Rio Grande do Sul",
+    "categoria": "manutencao",
+    "ict": "IHR",
+    "titulo": "Diagnóstico inteligente do estado de suspensões com base em perfis de vibração e inteligência artificial",
+    "coordenador": "Jaíne Webber"
+  },
+  {
+    "estado": "Santa Catarina",
+    "categoria": "manutencao",
+    "ict": "UFSC",
+    "titulo": "AutoSM - Assistência Técnica Veicular Otimizada",
+    "coordenador": "Giovani Gracioli"
+  },
+  {
+    "estado": "Santa Catarina",
+    "categoria": "manutencao",
+    "ict": "UFSC",
+    "titulo": "SIMPP: Sistema Inteligente de Manutenção Preditiva e Preventiva para Maquinário Agrícola e Construção Civil",
+    "coordenador": "Régis Kovacs Scalice"
+  },
+  {
+    "estado": "São Paulo",
+    "categoria": "manutencao",
+    "ict": "Unicamp",
+    "titulo": "PIDM-VHE: Plataforma Inteligente de Diagnóstico e Manutenção Preditiva para Veículos Híbridos e Elétricos Conectados",
+    "coordenador": "Tiago Henrique Machado"
+  },
+  {
+    "estado": "Minas Gerais",
+    "categoria": "manutencao",
+    "ict": "UFMG",
+    "titulo": "Modelamento de falha baseado em dados para a previsão da vida útil de baterias automotivas",
+    "coordenador": "Pedro Bastos Costa"
+  },
+  {
+    "estado": "Santa Catarina",
+    "categoria": "manutencao",
+    "ict": "UFSC",
+    "titulo": "Desenvolvimento de Solução Preditiva para Manutenção Automotiva Baseada em Sensoriamento e Análise de Dados",
+    "coordenador": "Rodrigo de Souza Vieira"
+  },
+  {
+    "estado": "Minas Gerais",
+    "categoria": "manutencao",
+    "ict": "UFMG",
+    "titulo": "DRIVE.AI — Diagnóstico, Rastreamento e Inteligência Veicular para Eficiência e Manutenção Preditiva",
+    "coordenador": "Antônio de Pádua Braga"
+  },
+  {
+    "estado": "Rio Grande do Sul",
+    "categoria": "manutencao",
+    "ict": "ISI-EQ",
+    "titulo": "CAN-Bat: Solução Inteligente para Coleta de Dados Veiculares e Predição de Degradação do RESS",
+    "coordenador": "Heverson Renan de Freitas"
+  },
+  {
+    "estado": "Santa Catarina",
+    "categoria": "manutencao",
+    "ict": "UFSC",
+    "titulo": "Sistema para Monitoramento de Temperatura e Espessura da Lona de Freio em Veículos Pesados com Freio a Tambor",
+    "coordenador": "Thiago A. Fiorentin"
+  },
+  {
+    "estado": "São Paulo",
+    "categoria": "manutencao",
+    "ict": "UNESP",
+    "titulo": "Sistema Inteligente de Diagnóstico e Manutenção Preditiva Veicular com Gêmeos Digitais e Técnicas de Aprendizado de Máquinas",
+    "coordenador": "Fabrício Leonardo Silva"
+  },
+  {
+    "estado": "Santa Catarina",
+    "categoria": "manutencao",
+    "ict": "UFSC",
+    "titulo": "Gestão Proativa de Baterias: Convertendo Dados em Inteligência Preditiva através da IA",
+    "coordenador": "André Luís Kirsten"
   }
 ]
