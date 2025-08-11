@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Projetos Aprovados - PD&I</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+
+<div id="sidebar">
+  <h2>Filtrar por Categoria</h2>
+  <select id="categoria">
+    <option value="todos">Todos</option>
+    <option value="veiculos_autonomos">Veículos Autônomos</option>
+    <option value="conectividade">Conectividade Veicular</option>
+    <option value="manutencao">Manutenção Preventiva</option>
+    <option value="seguranca_dados">Privacidade e Segurança de Dados</option>
+    <option value="assistencia_conducao">Assistência à Condução e Segurança Veicular</option>
+    <option value="logistica">Logística, Meio Ambiente e Descarbonização</option>
+  </select>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-ajax"></script>
+<script src="script.js"></script>
+</body>
+</html>
