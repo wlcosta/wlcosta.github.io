@@ -14,10 +14,19 @@ const categoryLabels = {
 };
 
 let projetosData = [];
+let totalGeral = 0;
+let totalPorCategoria = {};
+
 fetch('projetos.json')
   .then(res => res.json())
   .then(data => {
     projetosData = data;
+    // totais globais
+    totalGeral = projetosData.length;
+    totalPorCategoria = projetosData.reduce((acc, p) => {
+      acc[p.categoria] = (acc[p.categoria] || 0) + 1;
+      return acc;
+    }, {});
     carregarMapa();
   });
 
@@ -38,7 +47,7 @@ function countProjetos(estado, categoriaSel) {
   ).length;
 }
 
-// Agrupa projetos por categoria (já respeitando o seletor)
+// Agrupa projetos por categoria (respeitando o seletor atual)
 function groupByCategoria(estado, categoriaSel) {
   const grupos = {};
   projetosData.forEach(p => {
@@ -74,27 +83,34 @@ function carregarMapa() {
             const estado = feature.properties.name;
             const categoriaSel = document.getElementById('categoria').value;
 
+            // totais para o cabeçalho (sempre total do estado independentemente do filtro)
+            const totalEstado = countProjetos(estado, 'todos');
+
             const grupos = groupByCategoria(estado, categoriaSel);
             const categorias = Object.keys(grupos);
 
-            if (categorias.length === 0) {
-              layer.bindTooltip(`<b>${estado}</b><br><br>Sem projetos nessa seleção.`, { sticky: true }).openTooltip();
-              return;
-            }
+            let html = `<b>${estado} (${totalEstado}/${totalGeral})</b><br><br>`;
 
-            // Monta HTML agrupado por categoria
-            let html = `<b>${estado}</b><br><br>`;
-            categorias
-              .sort((a, b) => (categoryLabels[a] || a).localeCompare(categoryLabels[b] || b))
-              .forEach(cat => {
-                html += `<div style="margin-bottom:6px;"><u>${categoryLabels[cat] || cat}</u></div>`;
-                html += grupos[cat].map(p =>
-                  `<div style="margin-left:8px;">
-                    <b>${p.ict}</b>: ${p.titulo}<br><i>${p.coordenador}</i>
-                  </div>`
-                ).join('<br>');
-                html += `<br>`;
-              });
+            if (categorias.length === 0) {
+              html += `Sem projetos nessa seleção.`;
+            } else {
+              categorias
+                .sort((a, b) => (categoryLabels[a] || a).localeCompare(categoryLabels[b] || b))
+                .forEach(cat => {
+                  const qtdEstadoCat = grupos[cat].length;
+                  const totalCat = totalPorCategoria[cat] || 0;
+
+                  html += `<div style="margin-bottom:6px;">
+                    <u>${categoryLabels[cat] || cat} (${qtdEstadoCat}/${totalCat})</u>
+                  </div>`;
+                  html += grupos[cat].map(p =>
+                    `<div style="margin-left:8px;">
+                      <b>${p.ict}</b>: ${p.titulo}<br><i>${p.coordenador}</i>
+                    </div>`
+                  ).join('<br>');
+                  html += `<br>`;
+                });
+            }
 
             layer.bindTooltip(html, { sticky: true }).openTooltip();
           });
