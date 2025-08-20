@@ -14,6 +14,7 @@ profiles:
     content: about_thifany.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p><i>Master's student</i></p>
       <p>Advisor:</p> Prof. Veronica Teichrieb
       <p>Co-advisor:</p> Dr. Willams de Lima
       <p>Centro de Informática, UFPE</p>
