@@ -12,20 +12,20 @@ profiles:
   - align: right
     image: students_photos/no_photo.jpg
     content: students/about_brenna.md
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
 
   - align: right
     image: students_photos/no_photo.jpg
     content: students/about_malu.md
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
 
   - align: right
     image: students_photos/renato.jpg
     content: students/about_renato.md
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
 
   - align: right
     image: students_photos/thifany.jpg
     content: students/about_thifany.md
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
 ---
