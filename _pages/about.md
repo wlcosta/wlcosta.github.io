@@ -19,6 +19,4 @@ Hi there! My name is Willams (or Will, for short). I am an AI R&D Technical Prog
 
 I hold a PhD in Computer Science from the Federal University of Pernambuco 🇧🇷, where my research focused on deep learning techniques for human behavior recognition. Beyond my work at Voxar Labs, I’m an active member of the LatinX in AI community, dedicated to empowering LatinX researchers globally by fostering connections between communities, academics, and industries to advance AI innovation.
 
-I’m also deeply involved in other AI initiatives, including Google Research@São Paulo, and I contribute as a reviewer for prestigious conferences and journals such as ISMAR, SIBGRAPI, IEEE Intercon, and more. Passionate about bridging academia and industry, I thrive at the intersection of technical excellence, strategic leadership, and societal impact.
-
-Let’s connect and collaborate to drive impactful AI research and innovation!
+I’m also deeply involved in other AI initiatives, including Google Research@São Paulo, and I contribute as a reviewer for prestigious conferences and journals such as ICCV and NeurIPS. Let’s connect and collaborate to drive impactful AI research and innovation!

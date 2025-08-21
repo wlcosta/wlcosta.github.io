@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Welcomed [WEG](https://www.weg.net), a global leader in motors, energy, and automation, for a technical visit to explore future R&D opportunities.
+Welcomed [WEG](https://www.weg.net), a global leader in motors, energy, and automation, for a technical visit to explore future R&D opportunities
