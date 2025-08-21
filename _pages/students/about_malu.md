@@ -1,6 +1,6 @@
 ## Maria Luísa Lima <span class="student-badge msc">MSc</span>
 
-Maria Luísa Lima is a master’s student researching fairness and bias in computer vision for autonomous driving. Her masters introduces the first benchmark dataset focused on Latin American traffic scenarios and analyzed how state-of-the-art pedestrian detection models perform under regional and demographic diversity. Her interests lie at the intersection of AI fairness, human-centered evaluation, and safety-critical systems, with a focus on ensuring that next-generation ADAS technologies work reliably across diverse global populations.
+Maria Luísa Lima is a master’s student researching fairness and bias in computer vision for autonomous driving. Her masters introduces the first benchmark dataset focused on pedestrian centered Latin American traffic scenarios and analyzes how state-of-the-art detection models perform under regional and demographic diversity. Her interests lie at the intersection of AI fairness, human-centered evaluation, and safety-critical systems, with a focus on ensuring that next-generation ADAS technologies work reliably across diverse global populations.
 
 #### Advisors
 - **Advisor:** Prof. Veronica Teichrieb  
