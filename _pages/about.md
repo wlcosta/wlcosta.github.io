@@ -6,7 +6,7 @@ subtitle: Leading AI R&D programs @ <a href='https://voxarlabs.cin.ufpe.br'>Voxa
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile-pic.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
